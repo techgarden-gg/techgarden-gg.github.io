@@ -25,10 +25,19 @@ body {
     background-position: 50%;;
 }
 
+.navbar img {
+    max-height: 3rem;
+}
+
 .brand>img {
     max-width: 100%;
     width: 576px;
     /* margin-top: 10vh;
     margin-bottom: auto; */
     object-fit: contain;
+}
+
+.line-break {
+    width: 8rem;
+    margin: 0 auto;
 }
