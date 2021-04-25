@@ -1,21 +1,6 @@
-html,
 body {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: "MinecraftiaRegular";
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     background-color: black;
-}
-
-body.home {
-    background-image: url("https://wallpapercave.com/wp/wp238833.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .container {
@@ -32,52 +17,18 @@ body.home {
 }
 
 .brand {
-    margin-bottom: 4rem;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    background-image: url('img/brand-bg.png');
+    background-size: cover;
+    background-position: 50%;;
 }
 
-img {
+.brand>img {
     max-width: 100%;
-}
-
-.navigation {
-    display: flex;
-}
-
-.navigation > .nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 1rem;
-    text-decoration: none;
-}
-
-.navigation > .nav-item > .nav-icon {
-    position: relative;
-    border-radius: 50%;
-    height: 8rem;
-    width: 8rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-}
-
-.navigation > .nav-item > .nav-icon > svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
-}
-
-.navigation > .nav-item > .nav-text {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
-
-#modpacks {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
+    width: 576px;
+    /* margin-top: 10vh;
+    margin-bottom: auto; */
+    object-fit: contain;
 }
