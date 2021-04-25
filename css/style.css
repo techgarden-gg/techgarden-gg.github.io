@@ -20,7 +20,7 @@ body {
     height: calc(100vh);
     display: flex;
     justify-content: center;
-    background-image: url('img/brand-bg.png');
+    background-image: url('../img/brand-bg.png');
     background-size: cover;
     background-position: 50%;;
 }
