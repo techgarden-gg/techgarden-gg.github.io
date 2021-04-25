@@ -1,9 +1,6 @@
 html,
 body {
     height: 100%;
-    background-image: url("https://wallpapercave.com/wp/wp238833.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 body {
@@ -11,16 +8,24 @@ body {
     font-family: "MinecraftiaRegular";
     font-weight: normal;
     font-style: normal;
+    background-image: url("https://wallpapercave.com/wp/wp238833.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: 1400px;
     margin: 0 auto;
     height: 100%;
+}
+
+.container-center {
+    justify-content: center;
+    align-items: center;
 }
 
 .brand {
