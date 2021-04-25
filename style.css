@@ -8,11 +8,14 @@ body {
     font-family: "MinecraftiaRegular";
     font-weight: normal;
     font-style: normal;
+    background-color: black;
+}
+
+body.home {
     background-image: url("https://wallpapercave.com/wp/wp238833.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: black;
 }
 
 .container {
@@ -76,4 +79,5 @@ img {
 #modpacks {
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 }
