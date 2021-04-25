@@ -1,7 +1,37 @@
 [
     {
-        "name": "Better Minecraft Modpack",
+        "name": "Stay True",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/stay-true",
+        "img": "https://i.imgur.com/zDWP1XU.png"
+    },
+    {
+        "name": "Better Minecraft [PLUS]",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/better-minecraft-plus",
+        "img": "https://i.imgur.com/PIgjkDm.png"
+    },
+    {
+        "name": "Better Minecraft [FORGE]",
         "url:": "https://www.curseforge.com/minecraft/modpacks/better-minecraft-modpack",
         "img": "https://i.imgur.com/nMEjp3u.png"
+    },
+    {
+        "name": "Better Minecraft [FABRIC]",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/better-minecraft-fabric",
+        "img": "https://i.imgur.com/XrwB3DW.png"
+    },
+    {
+        "name": "Medieval Minecraft [FORGE]",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/medieval-minecraft-modpack",
+        "img": "https://i.imgur.com/E7ia60s.png"
+    },
+    {
+        "name": "Medieval Minecraft [FABRIC]",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/medieval-minecraft-fabric",
+        "img": "https://i.imgur.com/E7ia60s.png"
+    },
+    {
+        "name": "Aposiopesis",
+        "url:": "https://www.curseforge.com/minecraft/modpacks/aposiopesis",
+        "img": "https://i.imgur.com/qS3O03T.png"
     }
 ]
