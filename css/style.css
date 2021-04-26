@@ -41,3 +41,7 @@ body {
     width: 8rem;
     margin: 0 auto;
 }
+
+.footer img {
+    max-width: 20rem;
+}
