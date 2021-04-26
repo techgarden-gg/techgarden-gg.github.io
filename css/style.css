@@ -23,7 +23,7 @@ body {
 }
 
 .brand {
-    height: calc(100vh);
+    min-height: calc(100vh);
     display: flex;
     justify-content: center;
     background-image: url('../img/brand-bg.png');
